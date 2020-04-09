@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android_2.2.2</string>
+    <string name="save_btn">Сохранить</string>
+    <string name="hint">Создать запись</string>
+    <string name="settings">Settings</string>
+    <string name="note_book">Записная книжка</string>
+    <string name="calendar">Календарь</string>
+</resources>
