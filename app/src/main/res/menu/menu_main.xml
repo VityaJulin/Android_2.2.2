@@ -19,4 +19,14 @@
         android:orderInCategory="100"
         android:title="@string/calendar"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_address"
+        android:orderInCategory="100"
+        android:title="@string/address"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_money"
+        android:orderInCategory="100"
+        android:title="@string/money"
+        app:showAsAction="never" />
 </menu>

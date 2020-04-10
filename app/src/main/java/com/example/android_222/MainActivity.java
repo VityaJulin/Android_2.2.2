@@ -34,18 +34,30 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_open_notes) {
-            Toast.makeText(MainActivity.this, "Отркыть записную книжку", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, R.string.open_note_book, Toast.LENGTH_LONG).show();
             Intent intentNotes = new Intent(MainActivity.this, NotesActivity.class);
             startActivity(intentNotes);
             return true;
         }
         if (id == R.id.action_open_calendar) {
-            Toast.makeText(MainActivity.this, "Отркыть записную календарь", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, R.string.open_calendar, Toast.LENGTH_LONG).show();
             Intent intentCalendar = new Intent(MainActivity.this, CalendarActivity.class);
             startActivity(intentCalendar);
             return true;
         }
 
+        if (id == R.id.action_open_address) {
+            Toast.makeText(MainActivity.this, R.string.open_address, Toast.LENGTH_LONG).show();
+            Intent intentAddress = new Intent(MainActivity.this, AddressActivity.class);
+            startActivity(intentAddress);
+            return true;
+        }
+        if (id == R.id.action_open_money) {
+            Toast.makeText(MainActivity.this, R.string.open_money, Toast.LENGTH_LONG).show();
+            Intent intentMoney = new Intent(MainActivity.this, MoneyActivity.class);
+            startActivity(intentMoney);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }

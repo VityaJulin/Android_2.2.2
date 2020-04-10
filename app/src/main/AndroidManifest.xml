@@ -18,7 +18,9 @@
         </activity>
 
         <activity android:name=".NotesActivity" />
-        <activity android:name=".CalendarActivity"/>
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".AddressActivity"/>
+        <activity android:name=".MoneyActivity"/>
     </application>
 
 </manifest>
